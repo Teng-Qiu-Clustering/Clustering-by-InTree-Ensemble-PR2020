@@ -8,7 +8,6 @@ for i=1:N-1
     I(new_root)=new_root;
     I2=identify_root(I);
     old_root=I2(end_node);
-    D_IT(I2==new_root,I2==old_root)=W2(i);
-    %     D_IT(I2==old_root,I2==new_root)=W2(i);
+    D_IT(I2==new_root,I2==old_root)=W2(i); 
 end
 TsTD=max(D_IT,D_IT');
