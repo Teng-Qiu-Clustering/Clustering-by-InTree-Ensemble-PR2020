@@ -21,8 +21,8 @@ idx=find(isinf(W)); I(idx)=idx; W(idx)=-inf;
 [u,idx]=maxk(W,c-1);
 I(idx)=idx;
 % W(idx)=-inf;
-% Note: function maxk may not exist in low-version matlab; in this case,
-% the following code can be used instead. 
+% Note: Function "maxk" may not exist in low-version matlab; in this case,
+% the following code (FOR-LOOP) can be used instead. 
 % for i=1:c-1, 
 %     [u,idx]=max(W); 
 %     I(idx)=idx; 
