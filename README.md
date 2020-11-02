@@ -1,4 +1,4 @@
-# Fast run the code with demo
+# Fast run the code with a demo
 
 Run demo.m. This can reproduce the results in Fig.4A for the following TWO clustering methods on 30 test datasets.
 
