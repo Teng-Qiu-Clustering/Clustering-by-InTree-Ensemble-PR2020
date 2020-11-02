@@ -1,6 +1,7 @@
 
-%%
+%%  
 close all; addpath(genpath(pwd));  
+
 %% datasets
 data_names={'AGG','Flame','Spiral','Jain','2G','2G_unbalance','S1','UB','R15','D1024','3Circles','compound','S1_001S1','Iris','Seeds','Banknote','AML28','PMF'}
 % data_names={'AGG','Flame','Spiral','Jain','2G','2G_unbalance','S1','UB','R15','D1024','3Circles','compound','S1_001S1','Iris','Seeds','Banknote','AML28','PMF','TSNE20_single_cell_mrna_pollen','TSNE20_USPS','TSNE20_MNIST_smallScale','TSNE20_dig1-10_uni','TSNE20_PalmData25_uni','TSNE20_Coil20Data_25_uni','TSNE20_orlFace','TSNE20_Mfeat','TSNE20_COIL100','TSNE20_Isolet_all','TSNE20_zip','TSNE20_semeion'};
@@ -28,7 +29,8 @@ for method_id = 1:length(method_names)
             otherwise
                 error('not included')
         end 
-        %% show clustering result for 2-dimensional datasets
+        
+        % show clustering result for 2-dimensional datasets
         if plot_flag
             [N,dim] = size(data);
             if dim == 2
@@ -46,6 +48,7 @@ for method_id = 1:length(method_names)
         record_num = record_num + 1;
     end
 end
+
 %% display the clustering results
 disp(' ******************** Display All Results ************************ ')
 if exist('Result_all','var')
