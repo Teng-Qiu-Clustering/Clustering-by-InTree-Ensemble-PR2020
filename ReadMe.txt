@@ -4,4 +4,8 @@ ND-Ward-E(KT): the proposed clustering method published in Pattern Recognition i
 
 ND-K: a compared method (Qiu,et al. "Nearest descent, in-tree, and clustering",arXiv:1412.5902v2, 2014.) 
 
-* ND-K is the basis of ND-Ward-E(KT)
+Note:
+1) ND-K is the basis of ND-Ward-E(KT);
+2) for ND.m, function "maxk" may not exist in low-version matlab; in this case,
+the following code behind it in ND.m can be used instead (we have highlighted it in ND.m). 
+
