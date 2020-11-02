@@ -1,12 +1,14 @@
 
 %%
-close all; addpath(genpath(pwd));
-% data_names = {'S1_001S1'};
-% data_names={'AGG','Flame','Spiral','Jain','2G','2G_unbalance'};
-% data_names={'AGG','Flame','Spiral','Jain','2G','2G_unbalance','S1','UB','R15','D1024','3Circles','compound','S1_001S1','Iris','Seeds','Banknote','AML28','PMF'}
-data_names={'AGG','Flame','Spiral','Jain','2G','2G_unbalance','S1','UB','R15','D1024','3Circles','compound','S1_001S1','Iris','Seeds','Banknote','AML28','PMF','TSNE20_single_cell_mrna_pollen','TSNE20_USPS','TSNE20_MNIST_smallScale','TSNE20_dig1-10_uni','TSNE20_PalmData25_uni','TSNE20_Coil20Data_25_uni','TSNE20_orlFace','TSNE20_Mfeat','TSNE20_COIL100','TSNE20_Isolet_all','TSNE20_zip','TSNE20_semeion'};
-method_names = {'ND'};
-% method_names = {'ND-Ward-E(KT)','ND'};
+close all; addpath(genpath(pwd));  
+%% datasets
+data_names={'AGG','Flame','Spiral','Jain','2G','2G_unbalance','S1','UB','R15','D1024','3Circles','compound','S1_001S1','Iris','Seeds','Banknote','AML28','PMF'}
+% data_names={'AGG','Flame','Spiral','Jain','2G','2G_unbalance','S1','UB','R15','D1024','3Circles','compound','S1_001S1','Iris','Seeds','Banknote','AML28','PMF','TSNE20_single_cell_mrna_pollen','TSNE20_USPS','TSNE20_MNIST_smallScale','TSNE20_dig1-10_uni','TSNE20_PalmData25_uni','TSNE20_Coil20Data_25_uni','TSNE20_orlFace','TSNE20_Mfeat','TSNE20_COIL100','TSNE20_Isolet_all','TSNE20_zip','TSNE20_semeion'};
+ 
+%% compared methods
+method_names = {'ND-Ward-E(KT)','ND'};
+
+%% start testing
 Result_all = [];
 plot_flag = 0; % 0: do not show clustering results for 2D datasets; 1: show clustering result
 record_num = 1;
@@ -44,7 +46,7 @@ for method_id = 1:length(method_names)
         record_num = record_num + 1;
     end
 end
-%% display the clustering results on all datasets
+%% display the clustering results
 disp(' ******************** Display All Results ************************ ')
 if exist('Result_all','var')
     disp(struct2table(Result_all, 'AsArray', true)) %struct2table function may not exist in low matlab version; if so, then use the following commented codes
