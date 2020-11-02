@@ -11,7 +11,7 @@ a) ND-K is the basis of ND-Ward-E(KT);
 b) for ND.m, function "maxk" may not exist in low-version Matlab; in this case,
 the following code behind it in ND.m can be used instead (we have highlighted it in ND.m). 
 
-# Brief introduction of the proposed method: ND-Ward-E(KT)
+# Introduction of the proposed method: ND-Ward-E(KT)
 
 Recently, we have proposed a novel physically-inspired method, called
 the Nearest Descent (ND), which plays the role of organizing all the
