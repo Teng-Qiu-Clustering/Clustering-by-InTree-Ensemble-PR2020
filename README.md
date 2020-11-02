@@ -30,5 +30,7 @@ challenging synthetic and real-world datasets, showing a certain degree
 of practical value.
 
 # Figures
+## Fig. 1
+![Image text](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/edit/main/ImageFolderForReadMe/Fig1.png)
 ## Fig. 4
 ![Image text](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/edit/main/ImageFolderForReadMe/Fig.4.png)
