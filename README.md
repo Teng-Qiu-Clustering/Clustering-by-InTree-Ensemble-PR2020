@@ -1,4 +1,4 @@
-# Fast run the code with a demo
+# Quickstart with a Demo
 
 ***Run demo.m.*** This can reproduce the results in Fig.4A for the following TWO clustering methods on 30 test datasets.
 
@@ -6,12 +6,12 @@
 
 2) **ND-K**: a compared method (Qiu, et al. "Nearest descent, in-tree, and clustering",arXiv:1412.5902v2, 2014.) 
 
-Note:
+**Note**:
 a) ND-K is the basis of ND-Ward-E(KT);
 b) for ND.m, function "maxk" may not exist in low-version Matlab; in this case,
 the following code behind it in ND.m can be used instead (we have highlighted it in ND.m). 
 
-# Introduction of the proposed method: ND-Ward-E(KT)
+# Introduction of the Proposed Method: ND-Ward-E(KT)
 
 Recently, we have proposed a novel physically-inspired method, called
 the Nearest Descent (ND), which plays the role of organizing all the
