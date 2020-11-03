@@ -8,9 +8,8 @@ function [NMI_max,ARI,NMI_sqrt,AMI,RI,HI,AVI,EMI]= NMI_ARI(Label,annotation_data
 % for tt=1:length(u),temp(Label==u(tt))=tt; end
 % Label = temp;
 
-[NMI_max,AMI,AVI,EMI,NMI_sqrt] = ANMI_analytical_11(annotation_data,Label); %Note that AMI could be NaN
-% AMI is not a reliable index as well,it could output NaN or 1 (when
-% other indexes are far from 1. And AMI could be larger than 1; 
+[NMI_max,AMI,AVI,EMI,NMI_sqrt] = ANMI_analytical_11(annotation_data,Label); 
+% Note that AMI could be NaN and when other indexes are far from 1, AMI could be larger than 1; 
 
 % external clustering index (%ARI: adjusted Rand index, RI: the unadjusted Rand index, HI: "Hubert's" index.)
 [ARI,RI,HI]=valid_RandIndex(annotation_data,Label);
