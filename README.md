@@ -34,7 +34,7 @@ of practical value.
 ![Fig.1](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.1.png)
 Fig.1: The in-tree (A) and the MST (B) of the same dataset. In (A), the inter-cluster edges are highlighted in red (the rest edges are the intra-cluster ones). 
 
-![Fig.2](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.1.png)
+![Fig.2](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.3.png)
 Fig.2: The cluster structures of all the 2D datasets.
 
 ![Fig.4](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.4.png)
