@@ -1,10 +1,10 @@
 # Fast run the code with a demo
 
-Run demo.m. This can reproduce the results in Fig.4A for the following TWO clustering methods on 30 test datasets.
+***Run demo.m.*** This can reproduce the results in Fig.4A for the following TWO clustering methods on 30 test datasets.
 
-1) ND-Ward-E(KT): the proposed clustering method published in Pattern Recognition in 2020 (Title: "Enhancing In-Tree-based Clustering via Distance Ensemble and Kernelization" by Qiu and Li)
+1) **ND-Ward-E(KT)**: the proposed clustering method published in Pattern Recognition in 2020 (Title: "Enhancing In-Tree-based Clustering via Distance Ensemble and Kernelization" by Qiu and Li)
 
-2) ND-K: a compared method (Qiu, et al. "Nearest descent, in-tree, and clustering",arXiv:1412.5902v2, 2014.) 
+2) **ND-K**: a compared method (Qiu, et al. "Nearest descent, in-tree, and clustering",arXiv:1412.5902v2, 2014.) 
 
 Note:
 a) ND-K is the basis of ND-Ward-E(KT);
@@ -32,13 +32,13 @@ of practical value.
 # Figures
 
 ![Fig.1](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.1.png)
-Fig.1: Comparison between the in-tree (A) and the MST (B) of the same dataset. In (A), the inter-cluster edges are highlighted in red (the rest edges are the intra-cluster ones). MST: minimal spanning tree. 
+**Fig.1**: Comparison between the in-tree (A) and the MST (B) of the same dataset. In (A), the inter-cluster edges are highlighted in red (the rest edges are the intra-cluster ones). MST: minimal spanning tree. 
   
  
 ****
 
 ![Fig.4](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.4.png)
-Fig.4: Results of the 1st group of experiments. (A) The scores (NMI) of different methods (columns) with fixed empirical parameter values
+**Fig.4**: Results of the 1st group of experiments. (A) The scores (NMI) of different methods (columns) with fixed empirical parameter values
 across all datasets (rows). The methods in bold are the density-peak-based methods; the rest are the level-set-based ones. The highest score
 for each row is marked in bold. (B) and (C) show the mean and variance of the scores of each method on all the datasets, respectively.
 
@@ -46,4 +46,4 @@ for each row is marked in bold. (B) and (C) show the mean and variance of the sc
  ****
     
 ![Fig.2](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.3.png)
-Fig.2: The cluster structures of all the 2D datasets.
+**Fig.2**: The cluster structures of all the 2D datasets.
