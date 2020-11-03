@@ -30,13 +30,11 @@ challenging synthetic and real-world datasets, showing a certain degree
 of practical value.
 
 # Figures
-###Fig.1: The in-tree (A) and the MST (B) of the same dataset. In (A), the inter-cluster
-edges are highlighted in red (the rest edges are the intra-cluster
-ones). 
-![Fig.1](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.1.png)
 
-###Fig.4: Results of the 1st group of experiments. (A) The scores (NMI) of different methods (columns) with fixed empirical parameter values
-across all datasets (rows). The methods in bold are the density-peak-based methods; the rest are the level-set-based ones. The highest score
-for each row is marked in bold. (B) and (C) show the mean and variance of the scores of each method on all the datasets, respectively.
+![Fig.1](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.1.png)
+Fig.1: The in-tree (A) and the MST (B) of the same dataset. In (A), the inter-cluster edges are highlighted in red (the rest edges are the intra-cluster ones). 
 
 ![Fig.4](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.4.png)
+Fig.4: Results of the 1st group of experiments. (A) The scores (NMI) of different methods (columns) with fixed empirical parameter values
+across all datasets (rows). The methods in bold are the density-peak-based methods; the rest are the level-set-based ones. The highest score
+for each row is marked in bold. (B) and (C) show the mean and variance of the scores of each method on all the datasets, respectively.
