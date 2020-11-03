@@ -24,7 +24,7 @@ clustering, which proves a very convenient way to overcome the robustness
 limitation in our previous in-tree-based clustering. To enhance the
 capability of the in-tree-based clustering in handling extremely linearly-inseparable
 clusters, we kernelize the proposed ensemble-based clustering via
-the so-called kernel trick. As a result, the improved in-tree-based
+the so-called kernel trick. As a result (Fig. 4), the improved in-tree-based
 clustering method achieves high robustness and accuracy on diverse
 challenging synthetic and real-world datasets, showing a certain degree
 of practical value.
@@ -33,6 +33,9 @@ of practical value.
 
 ![Fig.1](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.1.png)
 Fig.1: The in-tree (A) and the MST (B) of the same dataset. In (A), the inter-cluster edges are highlighted in red (the rest edges are the intra-cluster ones). 
+
+![Fig.2](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.1.png)
+Fig.2: The cluster structures of all the 2D datasets.
 
 ![Fig.4](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.4.png)
 Fig.4: Results of the 1st group of experiments. (A) The scores (NMI) of different methods (columns) with fixed empirical parameter values
