@@ -39,11 +39,10 @@ of practical value.
 
 ![Fig.4](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.4.png)
 **Fig.4**: Results of the 1st group of experiments. (A) The scores (NMI) of different methods (columns) with fixed empirical parameter values
-across all datasets (rows). The methods in bold are the density-peak-based methods; the rest are the level-set-based ones. The highest score
-for each row is marked in bold. (B) and (C) show the mean and variance of the scores of each method on all the datasets, respectively.
+across all datasets (rows). See cluster structures of all the 2-dimensional synthetic datasets in Fig. 2 (in the following). The methods in bold are the density-peak-based methods; the rest are the level-set-based ones. The highest score for each row is marked in bold. (B) and (C) show the mean and variance of the scores of each method on all the datasets, respectively.
 
  
  ****
     
 ![Fig.2](https://github.com/Teng-Qiu-Clustering/Code-ClusteringbyInTreeEnsemble-PR2020/blob/main/ImageFolderForReadMe/Fig.3.png)
-**Fig.2**: The cluster structures of all the 2D datasets.
+**Fig.2**: The cluster structures of all the 2-dimensional synthetic datasets.
