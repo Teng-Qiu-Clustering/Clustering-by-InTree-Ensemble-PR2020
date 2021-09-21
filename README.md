@@ -10,6 +10,7 @@
 a) ND-K is the basis of ND-Ward-E(KT);
 b) for ND.m, function "maxk" may not exist in low-version Matlab; in this case,
 the following code behind it in ND.m can be used instead (we have highlighted it in ND.m). 
+c) **you can also choose to directly run the code in my code ocean: https://codeocean.com/capsule/6383011/tree/v1**
 
 # Introduction of the Proposed Method: ND-Ward-E(KT)
 
